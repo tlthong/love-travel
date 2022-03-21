@@ -1,0 +1,54 @@
+::placeholder { 
+    color: #9a9a9a;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+  
+  :-ms-input-placeholder { 
+    color: #9a9a9a;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+  
+  ::-ms-input-placeholder {
+    color: #9a9a9a;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.custom-select {
+    -moz-appearance: none; 
+    -webkit-appearance: none; 
+    appearance: none;
+}
+@media (min-width: 1200px) {
+    .navbar_link-child--search1::after {
+        content: "HOT";
+        float: right;
+        background-color: #f76570;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 3px 5px;
+    }
+    .tour-packages__carousel::after {
+        content: "BEST";
+        float: right;
+        background-color: #14b9d5;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 3px 5px;
+    }
+    .navbar_link-child--about-us-1::after {
+        content: "NEW";
+        float: right;
+        background-color: #1bbc9b;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 10px;
+        line-height: 10px;
+        padding: 3px 5px;
+    }
+}

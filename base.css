@@ -1,0 +1,56 @@
+a:hover, button:hover {
+    opacity: 0.8;
+}
+.font-16 {
+    font-size: 16px;
+}
+.color-9a {
+    color: #9a9a9a;
+}
+.font-bold {
+    font-weight: bold;
+}
+.bg-blue {
+    background-color: #14b9d5;
+}
+.text-green {
+    color: #1bbc9b;
+}
+.bg-linear--yellow {
+    background-image: linear-gradient(to right, #ffd205, #ff9b05);
+ }
+.bg-linear--tomato {
+    background-image: linear-gradient(to right, #f76570, #f78d65);
+ }
+.bg-linear--purple {
+    background-image: linear-gradient(to right, #ba71da, #ba71da);
+ }
+.bg-linear--green {
+    background-image: linear-gradient(to right, #1bbc9b, #1bbc63);
+ }
+.bg-linear--orange {
+    background-image: linear-gradient(to right, #f3a46b , #f3c96b);
+ }
+.bg-linear--blue {
+    background-image: linear-gradient(to right, #14b9d5, #14d5b1);
+ }
+
+ @keyframes fadeIn {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+     
+ }
+
+ /* background Board Holiday */
+ .item__holiday-board  {
+    background-image: url('http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/parallax-search-2.jpg?id=1538');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+ 
